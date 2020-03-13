@@ -1,0 +1,22 @@
+#include<stdio.h>
+void main()
+	{
+		int n,r;
+		float npr,ncr;
+
+		printf("\n Enter the value of n and r: ");
+		scanf("%d%d",&n,&r);
+
+		npr=(float)fact(n)/(fact(n-r));
+		ncr=(float)fact(n)/(fact(r)*fact(n-r));
+
+		printf("\n%dP%d = %f\n%dC%d = %f",n,r,npr,n,r,ncr);
+	}
+	{
+		if(a==0||a==1)
+		 return 1;
+	
+		else
+		 return a*fact(a-1);
+
+	} 
